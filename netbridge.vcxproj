@@ -76,26 +76,26 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <LibraryPath>D:\XYApp\bin\;D:\XYNetwork\MentoGDUT\dnsdispatcher\;D:\XYNetwork\MentoGDUT\dnsdispatcher\npcap\Lib\;$(LibraryPath)</LibraryPath>
-    <IncludePath>D:\XYApp;D:\XYNetwork\MentoGDUT\dnsdispatcher\npcap\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)\npcap\Lib\;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(ProjectDir)\npcap\Include;$(IncludePath)</IncludePath>
     <EmbedManifest>true</EmbedManifest>
     <GenerateManifest>true</GenerateManifest>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <LibraryPath>D:\XYApp\bin\;D:\XYNetwork\MentoGDUT\dnsdispatcher\;D:\XYNetwork\MentoGDUT\dnsdispatcher\npcap\Lib\;$(LibraryPath)</LibraryPath>
-    <IncludePath>D:\XYApp;D:\XYNetwork\MentoGDUT\dnsdispatcher\npcap\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)\npcap\Lib\;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(ProjectDir)\npcap\Include;$(IncludePath)</IncludePath>
     <EmbedManifest>true</EmbedManifest>
     <GenerateManifest>true</GenerateManifest>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <LibraryPath>D:\XYApp\bin\;D:\XYNetwork\MentoGDUT\dnsdispatcher\;D:\XYNetwork\MentoGDUT\dnsdispatcher\npcap\Lib\x64;$(LibraryPath)</LibraryPath>
-    <IncludePath>D:\XYApp;D:\XYNetwork\MentoGDUT\dnsdispatcher\npcap\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)\npcap\Lib\x64;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(ProjectDir)\npcap\Include;$(IncludePath)</IncludePath>
     <EmbedManifest>true</EmbedManifest>
     <GenerateManifest>true</GenerateManifest>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <LibraryPath>D:\XYApp\bin\;D:\XYNetwork\MentoGDUT\dnsdispatcher\;D:\XYNetwork\MentoGDUT\dnsdispatcher\npcap\Lib\x64;$(LibraryPath)</LibraryPath>
-    <IncludePath>D:\XYApp;D:\XYNetwork\MentoGDUT\dnsdispatcher\npcap\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)\npcap\Lib\x64;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(ProjectDir)\npcap\Include;$(IncludePath)</IncludePath>
     <EmbedManifest>true</EmbedManifest>
     <GenerateManifest>true</GenerateManifest>
   </PropertyGroup>
